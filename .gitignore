@@ -1,4 +1,3 @@
-node_modules/
-vendor/
+storage/mzaia.sqlite
 .DS_Store
 Thumbs.db
