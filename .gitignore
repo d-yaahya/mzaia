@@ -1,0 +1,34 @@
+# قاعدة البيانات والملفات الحساسة
+/storage/*.sqlite
+/storage/*.db
+/storage/*.sqlite-*
+/storage/*.db-*
+*.sqlite
+*.db
+
+# نسخ احتياطية وملفات مؤقتة
+*.before-*
+backup-before-*
+*.backup.php
+*.bak
+*.old
+*.tmp
+*_broken*
+fix_*.php
+
+# ملفات تصدير وتقارير مؤقتة
+*.xls
+*.xlsx
+*.csv
+*.zip
+*.log
+
+# ملفات النظام والمحررات
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# مجلدات أرشيف إن وجدت داخل المشروع
+_archive/
+mzaia-office-old-backups/
